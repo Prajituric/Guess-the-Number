@@ -52,14 +52,14 @@ document.querySelector(".check").addEventListener("click", function () {
   }
 });
 
-document.querySelector(".again").addEventListener("click", function () {
-  score = 10;
-  secretNumber = Math.trunc(Math.random() * 20) + 1;
-  document.querySelector(".message").textContent =
-    "Seems like you want to try again";
-  document.querySelector(".score").textContent = score;
-  document.querySelector(".number").textContent = "?";
-  document.querySelector(".guess").value = "";
-  document.querySelector("body").style.backgroundColor = "#222";
-  document.querySelector(".number").style.width = "15rem";
-});
+// document.querySelector(".again").addEventListener("click", function () {
+//   score = 10;
+//   secretNumber = Math.trunc(Math.random() * 20) + 1;
+//   document.querySelector(".message").textContent =
+//     "Seems like you want to try again";
+//   document.querySelector(".score").textContent = score;
+//   document.querySelector(".number").textContent = "?";
+//   document.querySelector(".guess").value = "";
+//   document.querySelector("body").style.backgroundColor = "#222";
+//   document.querySelector(".number").style.width = "15rem";
+// });
